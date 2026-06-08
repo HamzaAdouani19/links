@@ -15,8 +15,11 @@ export default function Hero() {
       z-10
       px-4"
     >
-      <PortfolioCard title={""} image={""} description={""} />
-
+<PortfolioCard
+  title="Hamza"
+  image="/ha.png"
+  description="Creative Developer"
+/>
       <h1
         className="
         mt-8
