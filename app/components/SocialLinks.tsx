@@ -1,8 +1,6 @@
 import {
   FaInstagram,
-  FaWhatsapp,
-  FaYoutube,
-  FaTiktok,
+  FaEnvelope ,
   FaGlobe
 } from "react-icons/fa";
 
@@ -15,24 +13,17 @@ export default function SocialLinks() {
       </a>
 
       <a className="btn-glass">
-        <FaWhatsapp />
-        WhatsApp
+        <FaEnvelope  />
+        Email 
       </a>
 
-      <a className="btn-glass">
-        <FaYoutube />
-        YouTube
-      </a>
+   
 
       <a className="btn-glass">
         <FaGlobe />
         Portfolio
       </a>
 
-      <a className="btn-glass col-span-2">
-        <FaTiktok />
-        TikTok
-      </a>
     </div>
   );
 }

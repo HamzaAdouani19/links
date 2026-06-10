@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {
   FaInstagram,
-  FaWhatsapp,
+  FaEnvelope ,
   FaLinkedin,
   FaBehance,
   FaGlobe,
@@ -15,9 +15,9 @@ const links = [
     iconClass: "icon-ig",
   },
   {
-    label: "WhatsApp",
-    icon: FaWhatsapp,
-    href: "https://wa.me/20923632",
+    label: "Email",
+    icon: FaEnvelope ,
+    href: "hamzaadouani1919@gmail.com",
     iconClass: "icon-wa",
   },
   {
